@@ -1,0 +1,28 @@
+Source: arc
+Section: utils
+Priority: optional
+Maintainer: Klaus Reimer <kay@debian.org>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.6.1
+
+Package: arc
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Archive utility based on the MSDOS ARC program
+ This program is based on the MSDOS ARC program, version 5.21, plus
+ a few enhancements...
+ .
+  o ARC also performs Huffman Squeezing on data. The Huffman Squeeze
+    algorithm was removed from MSDOS ARC after version 5.12. It turns
+    out to be more efficient than Lempel-Ziv style compression when
+    compressing graphic images. Squeeze analysis is always done now,
+    and the best of packing, squeezing, or crunching is used.
+ .
+  o Compresses and extracts Squashed files. "Squashing" was created
+    by Phil Katz in his PKxxx series of ARC utility programs for
+    MSDOS. Dan Lanciani wrote the original modifications to ARC's
+    Crunch code to handle Squashing. I've made minor changes since
+    then, mostly to reduce the amount of memory required. The 'q'
+    option flag must be specified to Squash files. The Squashing
+    algorithm will be used instead of the usual Crunch algorithm,
+    and will be compared against packing and squeezing, as before.

@@ -1,0 +1,20 @@
+arc (5.21k-1) unstable; urgency=low
+
+  * New upstream version.
+  * Fixed some buffer overflows (Closes: #278879)
+
+ -- Klaus Reimer <kay@debian.org>  Sat,  6 Nov 2004 12:34:09 +0100
+
+arc (5.21j-2) unstable; urgency=low
+
+  * Now build with -O2 and CC=gcc (Closes: 221949)
+  * Created and added a simple marc man page.
+
+ -- Klaus Reimer <kay@debian.org>  Wed, 28 Jan 2004 16:42:43 +0100
+
+arc (5.21j-1) unstable; urgency=low
+
+  * Initial Release (Closes: #219018).
+
+ -- Klaus Reimer <kay@debian.org>  Mon,  3 Nov 2003 22:15:12 +0100
+
