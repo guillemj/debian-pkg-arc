@@ -1,3 +1,10 @@
+arc (5.21l-1) unstable; urgency=low
+
+  * New upstream version.
+  * Fixed gcc-4.0 compiler problem (Closes: #285195)
+
+ -- Klaus Reimer <kay@debian.org>  Sun, 13 Mar 2005 16:50:13 +0100
+
 arc (5.21k-1) unstable; urgency=low
 
   * New upstream version.
