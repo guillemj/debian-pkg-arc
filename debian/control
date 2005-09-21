@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Klaus Reimer <kay@debian.org>
 Build-Depends: debhelper (>= 4.0.0)
-Standards-Version: 3.6.1
+Standards-Version: 3.6.2
 
 Package: arc
 Architecture: any
