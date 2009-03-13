@@ -1,3 +1,10 @@
+arc (5.21o-1) unstable; urgency=low
+
+  * New upstream release (Closes: #415988)
+  * Updated to debhelper 7 and debian policy 3.8.1
+
+ -- Klaus Reimer <kay@debian.org>  Fri, 13 Mar 2009 07:50:34 +0000
+
 arc (5.21m-1) unstable; urgency=high
 
   * New upstream release
