@@ -1,3 +1,9 @@
+arc (5.21o-2) unstable; urgency=low
+
+  * Added watch file.
+
+ -- Klaus Reimer <kay@debian.org>  Tue, 12 May 2009 06:43:56 +0000
+
 arc (5.21o-1) unstable; urgency=low
 
   * New upstream release (Closes: #415988)
