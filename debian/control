@@ -3,11 +3,11 @@ Section: utils
 Priority: optional
 Maintainer: Klaus Reimer <kay@debian.org>
 Build-Depends: debhelper (>= 7.0.0)
-Standards-Version: 3.8.1
+Standards-Version: 3.9.1
 
 Package: arc
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Archive utility based on the MSDOS ARC program
  This program is based on the MSDOS ARC program, version 5.21, plus
  a few enhancements...

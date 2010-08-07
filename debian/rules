@@ -79,7 +79,6 @@ binary-arch: build install
 #	dh_installmime
 #	dh_installinit
 #	dh_installcron
-#	dh_installinfo
 	dh_installman arc.1 debian/marc.1
 	dh_link
 	dh_strip

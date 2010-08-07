@@ -1,3 +1,9 @@
+arc (5.21o-3) unstable; urgency=low
+
+  * Added misc:Depends.
+
+ -- Klaus Reimer <kay@debian.org>  Sat, 07 Aug 2010 09:08:33 +0000
+
 arc (5.21o-2) unstable; urgency=low
 
   * Added watch file.
