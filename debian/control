@@ -1,9 +1,9 @@
 Source: arc
 Section: utils
 Priority: optional
-Maintainer: Klaus Reimer <kay@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper (>= 7.0.0), cdbs
-Standards-Version: 3.9.1
+Standards-Version: 3.9.4
 
 Package: arc
 Architecture: any
