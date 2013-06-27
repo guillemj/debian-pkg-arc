@@ -1,3 +1,14 @@
+arc (5.21q-1) unstable; urgency=low
+
+  * QA upload
+  * New upstream version 5.21q
+    Relicense under the GPL
+    Closes: #641449
+  * Use Hardening Options
+  * Add a Homepage control field to debian/control
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 27 Jun 2013 13:09:45 +1000
+
 arc (5.21p-2) unstable; urgency=low
 
   * Orphaning package.
