@@ -1,11 +1,9 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/makefile.mk
-
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-DEB_MAKE_CLEAN_TARGET    := clean
-DEB_MAKE_BUILD_TARGET    := all LIBS="$(shell dpkg-buildflags --get LDFLAGS)"
-DEB_MAKE_INSTALL_TARGET  := install DESTDIR=$(CURDIR)/debian/arc PREFIX=/usr
-CFLAGS                   := -O -Wall $(shell dpkg-buildflags --get CFLAGS) -DSYSV=1
+%:
+	dh $@
+
+override_dh_auto_install:
+	$(MAKE) DESTDIR=$(CURDIR)/debian/arc PREFIX=/usr install

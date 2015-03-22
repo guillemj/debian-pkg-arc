@@ -1,3 +1,25 @@
+arc (5.21q-2) experimental; urgency=medium
+
+  * QA upload.
+  * Updated the upstream homepage.
+  * Migrations:
+      - Build system from CDBS to pure DH.
+      - debian/copyright to 1.0 format.
+      - DH level from 7 to 9.
+      - Standards-Version from 3.9.4 to 3.9.6.
+  * debian/copyright:
+      - Updated to 1.0 format.
+      - Updated all information about the upstream and packaging.
+  * debian/dirs: useless; removed.
+  * debian/patches/:
+      - Added fix-makefile to implement GCC hardening.
+      - Improved the header of the manpage-section-fix and spelling patches.
+  * debian/watch:
+      - Added the GitHub as new source.
+      - Improved the SF search.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sun, 22 Mar 2015 15:42:41 -0300
+
 arc (5.21q-1) unstable; urgency=low
 
   * QA upload

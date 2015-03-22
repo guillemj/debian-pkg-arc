@@ -1,0 +1,29 @@
+Description: add GCC hardening.
+Author: Joao Eriberto Mota Filho <eriberto@debian.org>
+Last-Update: 2015-03-22
+Index: arc-5.21q/Makefile
+===================================================================
+--- arc-5.21q.orig/Makefile
++++ arc-5.21q/Makefile
+@@ -43,7 +43,7 @@ SYSTEM = -DSYSV=1
+ OPT = -O -Wall
+ # For MWC 3.0 on the Atari ST, use:
+ #CFLAGS = -VCOMPAC -VPEEP
+-CFLAGS = $(OPT) $(SYSTEM)
++CFLAGS += $(OPT) $(SYSTEM) $(CPPFLAGS)
+ 
+ # GNU's gcc is very nice, if you've got it. Otherwise just cc.
+ #CC = cgcc -mshort -mbaserel
+@@ -68,10 +68,10 @@ MOBJ = marc.o arcdata.o arcdos.o arcio.o
+ all:	arc$(PROG) marc$(PROG)
+ 
+ arc$(PROG):	$(OBJS) $(TMCLOCK)
+-	$(CC) $(OPT) -o arc$(PROG) $(OBJS) $(TMCLOCK) $(LIBS)
++	$(CC) $(OPT) -o arc$(PROG) $(OBJS) $(TMCLOCK) $(LIBS) $(LDFLAGS)
+ 
+ marc$(PROG):	$(MOBJ) $(TMCLOCK)
+-	$(CC) $(OPT) -o marc$(PROG) $(MOBJ) $(TMCLOCK) $(LIBS)
++	$(CC) $(OPT) -o marc$(PROG) $(MOBJ) $(TMCLOCK) $(LIBS) $(LDFLAGS)
+ 
+ clean:
+ 	rm -f *.o arc$(PROG) marc$(PROG)

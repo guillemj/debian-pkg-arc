@@ -1,6 +1,7 @@
-This patch fixes a spelling error in arc's man page. This error
-is already fixed upstream but not released yet.
-
+Description: this patch fixes a spelling error in arc's man page.
+             This error is already fixed upstream but not released yet.
+Author: Klaus Reimer <kay@debian.org>
+Last-Update: 2011-01-01
 Index: arc-5.21p/arc.1
 ===================================================================
 --- arc-5.21p.orig/arc.1	2011-01-01 13:26:19.000000000 +0000
