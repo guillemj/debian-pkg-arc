@@ -1,3 +1,10 @@
+arc (5.21q-3) unstable; urgency=medium
+
+  * QA upload.
+  * Upload to unstable.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Wed, 06 May 2015 19:02:34 -0300
+
 arc (5.21q-2) experimental; urgency=medium
 
   * QA upload.
