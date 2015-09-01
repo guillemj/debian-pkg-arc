@@ -1,3 +1,19 @@
+arc (5.21q-4) unstable; urgency=medium
+
+  * New maintainer. Thanks to Klaus Reimer for your work over this package.
+    (Closes: #714060).
+  * debian/control:
+      - Updated long description.
+  * debian/copyright:
+      - Added upstream e-mail address.
+      - Updated information about the packaging.
+  * debian/patches/fix-gcc-warnings:
+      - Added to fix some GCC warnings.
+  * debian/source/format:
+      - Added a new line (EOF).
+
+ -- Adilson dos Reis <adilsondosreis@yahoo.com.br>  Tue, 01 Sep 2015 13:01:09 -0300
+
 arc (5.21q-3) unstable; urgency=medium
 
   * QA upload.

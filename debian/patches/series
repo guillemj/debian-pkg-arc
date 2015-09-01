@@ -1,3 +1,4 @@
 fix-makefile
 spelling
 manpage-section-fix
+fix-gcc-warnings
