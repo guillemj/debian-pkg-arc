@@ -1,7 +1,7 @@
 Source: arc
 Section: utils
 Priority: optional
-Maintainer: Adilson dos Reis <adilsondosreis@yahoo.com.br>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/ani6al/arc

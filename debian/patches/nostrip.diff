@@ -1,0 +1,13 @@
+--- a/Makefile
++++ b/Makefile
+@@ -132,8 +132,8 @@
+ 	rm -rf .dist
+ 
+ install: all
+-	install -s -m 0755 -D arc $(DESTDIR)$(PREFIX)/bin/arc
+-	install -s -m 0755 -D marc $(DESTDIR)$(PREFIX)/bin/marc
++	install -m 0755 -D arc $(DESTDIR)$(PREFIX)/bin/arc
++	install -m 0755 -D marc $(DESTDIR)$(PREFIX)/bin/marc
+ 	install -m 0644 -D arc.1 $(DESTDIR)$(PREFIX)/share/man/man1/arc.1
+ 	install -m 0644 -D marc.1 $(DESTDIR)$(PREFIX)/share/man/man1/marc.1
+ 

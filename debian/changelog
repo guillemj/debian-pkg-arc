@@ -1,3 +1,12 @@
+arc (5.21q-5) unstable; urgency=medium
+
+  * QA upload.
+  * Set maintainer to Debian QA Group. (see #885923)
+  * Add patch from Jakub Wilk to honour DEB_BUILD_OPTIONS=nostrip.
+    (Closes: #774438)
+
+ -- Adrian Bunk <bunk@debian.org>  Wed, 17 Jan 2018 23:00:08 +0200
+
 arc (5.21q-4) unstable; urgency=medium
 
   * New maintainer. Thanks to Klaus Reimer for your work over this package.
