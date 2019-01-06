@@ -3,3 +3,6 @@ spelling
 manpage-section-fix
 fix-gcc-warnings
 nostrip.diff
+arc-5.21p-hdrv1-read-fix.patch
+arc-5.21p-fix-arcdie.patch
+arc-5.21p-directory-traversel.patch

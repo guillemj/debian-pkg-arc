@@ -1,3 +1,13 @@
+arc (5.21q-6) unstable; urgency=medium
+
+  * QA upload.
+  * Fix version 1 arc header reading
+  * Fix arcdie crash when called with more then 1 variable argument
+  * Fix directory traversal bugs.
+    Thanks to Hans de Goede <hdegoede@redhat.com> (Closes: #774527)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 06 Jan 2019 20:58:58 +0100
+
 arc (5.21q-5) unstable; urgency=medium
 
   * QA upload.
