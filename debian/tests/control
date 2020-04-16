@@ -1,0 +1,8 @@
+Test-Command: arc | grep Usage
+
+Test-Command: arc aw $AUTOPKGTEST_TMP/final.arc debian/tests/debian.jpg debian/tests/test1.txt;
+              arc l $AUTOPKGTEST_TMP/final.arc;
+              arc v $AUTOPKGTEST_TMP/final.arc;
+              arc t $AUTOPKGTEST_TMP/final.arc;
+              cd $AUTOPKGTEST_TMP; arc x final.arc
+

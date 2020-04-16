@@ -6,9 +6,10 @@ to operate on archives which have the directory-seperator inside filenames.
 BugLink: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774527
 BugLink: https://bugzilla.redhat.com/show_bug.cgi?id=1179143
 Signed-off-by: Hans de Goede <hdegoede@redhat.com>
-diff -up arc-5.21p/arcio.c~ arc-5.21p/arcio.c
---- arc-5.21p/arcio.c~	2015-01-16 13:04:16.000000000 +0100
-+++ arc-5.21p/arcio.c	2015-01-16 15:45:31.389010626 +0100
+Index: arc/arcio.c
+===================================================================
+--- arc.orig/arcio.c
++++ arc/arcio.c
 @@ -109,6 +109,9 @@ readhdr(hdr, f)			/* read a header from
  #if	_MTS
  	(void) atoe(hdr->name, strlen(hdr->name));

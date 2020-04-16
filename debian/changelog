@@ -1,3 +1,33 @@
+arc (5.21q-7) unstable; urgency=medium
+
+  * QA upload.
+  * Using new DH level format. Consequently:
+      - debian/compat: removed.
+      - debian/control: changed from 'debhelper' to 'debhelper-compat' in
+        Build-Depends field and bumped level to 12.
+  * debian/control:
+      - Added 'Rules-Requires-Root: no' to source stanza.
+      - Bumped Standards-Version to 4.5.0.
+      - Created VCS fields.
+  * debian/copyright:
+      - Added packaging rights for Adrian Bunk and Salvatore Bonaccorso.
+      - Fixed the licensing for packaging.
+      - Updated packaging copyright years.
+      - Using a secure URI in Format field.
+  * debian/patches/:
+      - Added a numeric prefix for all patches.
+      - Added a suffix (patch) for all patches.
+      - Added a header to 050_nostrip.patch.
+      - Refreshed all patches.
+  * debian/rules: use dh_auto_install to install files.
+  * debian/salsa-ci.yml: added to provide CI tests for Salsa.
+  * debian/source/include-binaries: create to control debian/tests/debian.jpg.
+  * debian/tests/*: created to perform trivial CI tests.
+  * debian/upstream/metadata: created.
+  * debian/watch: bumped to version 4.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Wed, 15 Apr 2020 22:10:32 -0300
+
 arc (5.21q-6) unstable; urgency=medium
 
   * QA upload.
@@ -143,4 +173,3 @@ arc (5.21j-1) unstable; urgency=low
   * Initial Release (Closes: #219018).
 
  -- Klaus Reimer <kay@debian.org>  Mon,  3 Nov 2003 22:15:12 +0100
-

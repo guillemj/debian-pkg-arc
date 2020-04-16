@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ARC
 Source: http://sf.net/projects/arc
 
@@ -9,21 +9,23 @@ Copyright: 1985-1987 System Enhancement Associates
 License: GPL-2
 Comment: the original license, from System Enhancement Associates, says
          "You may copy and distribute this program freely, under the terms
-         of the General Public License". The Unix upstream chose the GPL-2
+         of the General Public License". The Unix upstream chosen the GPL-2
          version.
 
 Files: debian/*
-Copyright: 2003-2013 Klaus Reimer <kay@debian.org,
-                                   k@ailis.de>
+Copyright: 2003-2013 Klaus Reimer <kay@debian.org, k@ailis.de>
            2013      Anibal Monsalve Salazar <anibal@debian.org>
-           2015      Joao Eriberto Mota Filho <eriberto@debian.org>
            2015      Adilson dos Reis <adilsondosreis@yahoo.com.br>
-License: GPL-2
+           2015-2020 Joao Eriberto Mota Filho <eriberto@debian.org>
+           2018      Adrian Bunk <bunk@debian.org>
+           2019      Salvatore Bonaccorso <carnil@debian.org>
+License: GPL-2+
 
-License: GPL-2
+License: GPL-2 or GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
- the Free Software Foundation; version 2 of the License.
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
  .
  This package is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -31,7 +33,7 @@ License: GPL-2
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
+ along with this program. If not, see <https://www.gnu.org/licenses/>
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

@@ -1,10 +1,10 @@
 Description: add GCC hardening.
 Author: Joao Eriberto Mota Filho <eriberto@debian.org>
 Last-Update: 2015-03-22
-Index: arc-5.21q/Makefile
+Index: arc/Makefile
 ===================================================================
---- arc-5.21q.orig/Makefile
-+++ arc-5.21q/Makefile
+--- arc.orig/Makefile
++++ arc/Makefile
 @@ -43,7 +43,7 @@ SYSTEM = -DSYSV=1
  OPT = -O -Wall
  # For MWC 3.0 on the Atari ST, use:

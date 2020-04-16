@@ -1,8 +1,8 @@
-fix-makefile
-spelling
-manpage-section-fix
-fix-gcc-warnings
-nostrip.diff
-arc-5.21p-hdrv1-read-fix.patch
-arc-5.21p-fix-arcdie.patch
-arc-5.21p-directory-traversel.patch
+010_fix-makefile.patch
+020_spelling.patch
+030_manpage-section-fix.patch
+040_fix-gcc-warnings.patch
+050_nostrip.patch
+060_arc-5.21p-hdrv1-read-fix.patch
+070_arc-5.21p-fix-arcdie.patch
+080_arc-5.21p-directory-traversel.patch

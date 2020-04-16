@@ -2,9 +2,12 @@ Source: arc
 Section: utils
 Priority: optional
 Maintainer: Debian QA Group <packages@qa.debian.org>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Homepage: https://github.com/ani6al/arc
+Vcs-Browser: https://salsa.debian.org/debian/arc
+Vcs-Git: https://salsa.debian.org/debian/arc.git
 
 Package: arc
 Architecture: any
