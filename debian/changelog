@@ -1,3 +1,11 @@
+arc (5.21q-8) unstable; urgency=medium
+
+  * QA upload.
+  * Update compat level to 13.
+  * Fix FTBFS with gcc-10. (Closes: #957005)
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Mon, 25 May 2020 00:37:13 +0100
+
 arc (5.21q-7) unstable; urgency=medium
 
   * QA upload.

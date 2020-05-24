@@ -6,3 +6,4 @@
 060_arc-5.21p-hdrv1-read-fix.patch
 070_arc-5.21p-fix-arcdie.patch
 080_arc-5.21p-directory-traversel.patch
+fix_ftbfs.patch
