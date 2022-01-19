@@ -12,6 +12,7 @@ Vcs-Git: https://git.hadrons.org/git/debian/pkgs/acl.git
 
 Package: arc
 Architecture: any
+Multi-Arch: foreign
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
