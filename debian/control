@@ -16,7 +16,7 @@ Multi-Arch: foreign
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
-Description: Archive utility based on the MSDOS ARC program
+Description: archive utility based on the MSDOS ARC program
  This program is based on the MSDOS ARC program, version 5.21, plus
  a few enhancements...
  .
