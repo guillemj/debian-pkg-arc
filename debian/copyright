@@ -1,24 +1,28 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ARC
 Source: http://sf.net/projects/arc
+Upstream-Name: ARC
 
-Files: *
-Copyright: 1985-1987 System Enhancement Associates
-           1985-1987 Thom Henderson
-           2005-2010 Howard Chu <hyc@symas.com>
+Files:
+ *
+Copyright:
+ 1985-1987 System Enhancement Associates
+ 1985-1987 Thom Henderson
+ 2005-2010 Howard Chu <hyc@symas.com>
 License: GPL-2
-Comment: the original license, from System Enhancement Associates, says
-         "You may copy and distribute this program freely, under the terms
-         of the General Public License". The Unix upstream chosen the GPL-2
-         version.
+Comment: The original license, from System Enhancement Associates, says
+ "You may copy and distribute this program freely, under the terms
+ of the General Public License". The Unix upstream chosen the GPL-2
+ version.
 
-Files: debian/*
-Copyright: 2003-2013 Klaus Reimer <kay@debian.org, k@ailis.de>
-           2013      Anibal Monsalve Salazar <anibal@debian.org>
-           2015      Adilson dos Reis <adilsondosreis@yahoo.com.br>
-           2015-2020 Joao Eriberto Mota Filho <eriberto@debian.org>
-           2018      Adrian Bunk <bunk@debian.org>
-           2019      Salvatore Bonaccorso <carnil@debian.org>
+Files:
+ debian/*
+Copyright:
+ 2003-2013 Klaus Reimer <kay@debian.org, k@ailis.de>
+ 2013      Anibal Monsalve Salazar <anibal@debian.org>
+ 2015      Adilson dos Reis <adilsondosreis@yahoo.com.br>
+ 2015-2020 Joao Eriberto Mota Filho <eriberto@debian.org>
+ 2018      Adrian Bunk <bunk@debian.org>
+ 2019      Salvatore Bonaccorso <carnil@debian.org>
 License: GPL-2+
 
 License: GPL-2 or GPL-2+

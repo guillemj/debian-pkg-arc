@@ -3,6 +3,7 @@ arc (5.21q-9) UNRELEASED; urgency=medium
   * New maintainer. Closes: #885923
   * Update Vcs fields.
   * Remove now unused salsa CI files.
+  * Wrap and sort (-sat) debian files.
 
  -- Guillem Jover <guillem@debian.org>  Wed, 19 Jan 2022 23:14:07 +0100
 

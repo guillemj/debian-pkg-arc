@@ -5,4 +5,3 @@ Test-Command: arc aw $AUTOPKGTEST_TMP/final.arc debian/tests/debian.jpg debian/t
               arc v $AUTOPKGTEST_TMP/final.arc;
               arc t $AUTOPKGTEST_TMP/final.arc;
               cd $AUTOPKGTEST_TMP; arc x final.arc
-

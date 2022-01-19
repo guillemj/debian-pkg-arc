@@ -2,7 +2,8 @@ Source: arc
 Section: utils
 Priority: optional
 Maintainer: Guillem Jover <guillem@debian.org>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends:
+ debhelper-compat (= 13),
 Standards-Version: 4.5.0
 Rules-Requires-Root: no
 Homepage: https://github.com/ani6al/arc
@@ -11,7 +12,9 @@ Vcs-Git: https://git.hadrons.org/git/debian/pkgs/acl.git
 
 Package: arc
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: Archive utility based on the MSDOS ARC program
  This program is based on the MSDOS ARC program, version 5.21, plus
  a few enhancements...
