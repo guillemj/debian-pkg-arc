@@ -1,6 +1,7 @@
 arc (5.21q-9) UNRELEASED; urgency=medium
 
   * New maintainer. Closes: #885923
+  * Update Vcs fields.
 
  -- Guillem Jover <guillem@debian.org>  Wed, 19 Jan 2022 23:14:07 +0100
 
