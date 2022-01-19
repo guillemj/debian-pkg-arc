@@ -1,3 +1,9 @@
+arc (5.21q-9) UNRELEASED; urgency=medium
+
+  * New maintainer. Closes: #885923
+
+ -- Guillem Jover <guillem@debian.org>  Wed, 19 Jan 2022 23:14:07 +0100
+
 arc (5.21q-8) unstable; urgency=medium
 
   * QA upload.
