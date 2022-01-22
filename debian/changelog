@@ -5,6 +5,7 @@ arc (5.21q-10) UNRELEASED; urgency=medium
     already present in debian/copyright.
   * Clean up patches metafields.
   * Update copyright statements.
+  * Split GPL-2 and GPL-2+ License into their own fields in debian/copyright.
 
  -- Guillem Jover <guillem@debian.org>  Sat, 22 Jan 2022 20:58:28 +0100
 
