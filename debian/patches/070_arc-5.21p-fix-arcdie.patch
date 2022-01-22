@@ -4,6 +4,7 @@ Add proper vararg handling to fix crash on 64 bit machines when arcdie gets
 called with more then 1 variable argument.
 
 Signed-off-by: Hans de Goede <hdegoede@redhat.com>
+
 Index: arc/arcmisc.c
 ===================================================================
 --- arc.orig/arcmisc.c

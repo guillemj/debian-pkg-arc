@@ -2,6 +2,7 @@ Description: this patch fixes a spelling error in arc's man page.
              This error is already fixed upstream but not released yet.
 Author: Klaus Reimer <kay@debian.org>
 Last-Update: 2011-01-01
+
 Index: arc/arc.1
 ===================================================================
 --- arc.orig/arc.1

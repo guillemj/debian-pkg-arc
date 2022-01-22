@@ -6,6 +6,7 @@ to operate on archives which have the directory-seperator inside filenames.
 BugLink: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774527
 BugLink: https://bugzilla.redhat.com/show_bug.cgi?id=1179143
 Signed-off-by: Hans de Goede <hdegoede@redhat.com>
+
 Index: arc/arcio.c
 ===================================================================
 --- arc.orig/arcio.c

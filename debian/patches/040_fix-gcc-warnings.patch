@@ -1,6 +1,7 @@
 Description: fix some GCC warnings.
 Author: Adilson dos Reis <adilsondosreis@yahoo.com.br>
 Last-Update: 2015-09-01
+
 Index: arc/arcadd.c
 ===================================================================
 --- arc.orig/arcadd.c
