@@ -1,3 +1,9 @@
+arc (5.21q-10) UNRELEASED; urgency=medium
+
+  * Fix Vcs-Git URL.
+
+ -- Guillem Jover <guillem@debian.org>  Sat, 22 Jan 2022 20:58:28 +0100
+
 arc (5.21q-9) unstable; urgency=medium
 
   * New maintainer. Closes: #885923
