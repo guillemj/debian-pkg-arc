@@ -1,4 +1,4 @@
-arc (5.21q-10) UNRELEASED; urgency=medium
+arc (5.21q-10) unstable; urgency=medium
 
   * Fix Vcs-Git URL.
   * Remove duplicate Reference.Author from debian/upstream/metadata file,
@@ -8,7 +8,7 @@ arc (5.21q-10) UNRELEASED; urgency=medium
   * Split GPL-2 and GPL-2+ License into their own fields in debian/copyright.
   * Fix verb tense in Comment field in debian/copyright.
 
- -- Guillem Jover <guillem@debian.org>  Sat, 22 Jan 2022 20:58:28 +0100
+ -- Guillem Jover <guillem@debian.org>  Sat, 22 Jan 2022 21:09:23 +0100
 
 arc (5.21q-9) unstable; urgency=medium
 
