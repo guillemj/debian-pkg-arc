@@ -16,18 +16,18 @@ Multi-Arch: foreign
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
-Description: archive utility based on the MSDOS ARC program
- This program is based on the MSDOS ARC program, version 5.21, plus a few
+Description: archive utility based on the MS-DOS ARC program
+ This program is based on the MS-DOS ARC program, version 5.21, plus a few
  enhancements.
  .
  ARC also performs Huffman Squeezing on data. The Huffman Squeeze algorithm
- was removed from MSDOS ARC after version 5.12. It turns out to be more
+ was removed from MS-DOS ARC after version 5.12. It turns out to be more
  efficient than Lempel-Ziv style compression when compressing graphic images.
  Squeeze analysis is always done now, and the best of packing, squeezing,
  or crunching is used.
  .
  Compresses and extracts Squashed files. "Squashing" was created by
- Phil Katz in his PKxxx series of ARC utility programs for MSDOS.
+ Phil Katz in his PKxxx series of ARC utility programs for MS-DOS.
  Dan Lanciani wrote the original modifications to ARC's Crunch code to
  handle Squashing. Klaus Reimer made minor changes since then, mostly to
  reduce the amount of memory required. The 'q' option flag must be

@@ -2,6 +2,7 @@ arc (5.21q-11) UNRELEASED; urgency=medium
 
   * Enable LFS build options.
   * Switch to Standards-Version 4.6.1 (no changes needed).
+  * Spell MS-DOS correctly, by hyphenating it.
 
  -- Guillem Jover <guillem@debian.org>  Tue, 16 Aug 2022 03:27:34 +0200
 
