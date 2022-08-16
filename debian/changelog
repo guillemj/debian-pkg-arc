@@ -1,3 +1,9 @@
+arc (5.21q-11) UNRELEASED; urgency=medium
+
+  * Enable LFS build options.
+
+ -- Guillem Jover <guillem@debian.org>  Tue, 16 Aug 2022 03:27:34 +0200
+
 arc (5.21q-10) unstable; urgency=medium
 
   * Fix Vcs-Git URL.
