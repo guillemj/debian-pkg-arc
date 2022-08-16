@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Guillem Jover <guillem@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Rules-Requires-Root: no
 Homepage: https://github.com/ani6al/arc
 Vcs-Browser: https://git.hadrons.org/cgit/debian/pkgs/arc.git
