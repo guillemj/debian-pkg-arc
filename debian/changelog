@@ -1,10 +1,10 @@
-arc (5.21q-11) UNRELEASED; urgency=medium
+arc (5.21q-11) unstable; urgency=medium
 
   * Enable LFS build options.
   * Switch to Standards-Version 4.6.1 (no changes needed).
   * Spell MS-DOS correctly, by hyphenating it.
 
- -- Guillem Jover <guillem@debian.org>  Tue, 16 Aug 2022 03:27:34 +0200
+ -- Guillem Jover <guillem@debian.org>  Tue, 16 Aug 2022 13:25:06 +0200
 
 arc (5.21q-10) unstable; urgency=medium
 
