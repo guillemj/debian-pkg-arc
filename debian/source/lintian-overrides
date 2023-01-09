@@ -1,0 +1,2 @@
+# Upstream does not sign releases.
+arc: debian-watch-does-not-check-openpgp-signature [debian/watch]
