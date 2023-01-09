@@ -1,13 +1,14 @@
-Fix version 1 arc header reading
-
-The code for v1 hdr reading was reading the packed header directly into an
-unpacked struct.
-
-Use the same read to dummy array, then manual unpack to header struct as
-used for v2 headers for v1 headers too.
-
+Author: Hans de Goede <hdegoede@redhat.com>
+Forwarded: no
+Description: Fix version 1 arc header reading
+ The code for v1 hdr reading was reading the packed header directly into an
+ unpacked struct.
+ .
+ Use the same read to dummy array, then manual unpack to header struct as
+ used for v2 headers for v1 headers too.
 Signed-off-by: Hans de Goede <hdegoede@redhat.com>
 
+---
 Index: arc/arcio.c
 ===================================================================
 --- arc.orig/arcio.c

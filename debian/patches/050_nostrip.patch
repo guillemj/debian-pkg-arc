@@ -1,7 +1,10 @@
 Description: honour DEB_BUILD_OPTIONS=nostrip
 Author: Jakub Wilk <jwilk@debian.org>
+Origin: vendor
+Forwarded: no
 Last-Update: 2018-01-17
 
+---
 Index: arc/Makefile
 ===================================================================
 --- arc.orig/Makefile

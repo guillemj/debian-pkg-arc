@@ -1,8 +1,10 @@
 Description: Fix FTBFS with gcc-10
 Author: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Origin: vendor
+Forwarded: no
+Last-Update: 2020-05-25
 
 ---
-
 --- arc-5.21q.orig/arclzw.c
 +++ arc-5.21q/arclzw.c
 @@ -56,8 +56,8 @@ static VOID     putcode();

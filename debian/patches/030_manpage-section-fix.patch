@@ -1,8 +1,10 @@
 Description: this patch changes the man page sections from 1L to 1.
-             This is also already changed upstream but not released yet.
+ This is also already changed upstream but not released yet.
 Author: Klaus Reimer <kay@debian.org>
+Origin: upstream
 Last-Update: 2011-01-01
 
+---
 Index: arc/arc.1
 ===================================================================
 --- arc.orig/arc.1

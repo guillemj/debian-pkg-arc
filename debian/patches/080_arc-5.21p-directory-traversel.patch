@@ -1,12 +1,13 @@
-Fix directory traversal bugs
-
-arc archives do not contain directory hierarchies, only filenames, so refuse
-to operate on archives which have the directory-seperator inside filenames.
-
-BugLink: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774527
-BugLink: https://bugzilla.redhat.com/show_bug.cgi?id=1179143
+Author: Hans de Goede <hdegoede@redhat.com>
+Forwarded: no
+Description: Fix directory traversal bugs
+ arc archives do not contain directory hierarchies, only filenames, so refuse
+ to operate on archives which have the directory-seperator inside filenames.
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=774527
+Bug-Fedora: https://bugzilla.redhat.com/show_bug.cgi?id=1179143
 Signed-off-by: Hans de Goede <hdegoede@redhat.com>
 
+---
 Index: arc/arcio.c
 ===================================================================
 --- arc.orig/arcio.c

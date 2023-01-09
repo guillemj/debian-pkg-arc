@@ -1,7 +1,10 @@
 Description: add GCC hardening.
 Author: Joao Eriberto Mota Filho <eriberto@debian.org>
+Origin: vendor
+Forwarded: no
 Last-Update: 2015-03-22
 
+---
 Index: arc/Makefile
 ===================================================================
 --- arc.orig/Makefile
