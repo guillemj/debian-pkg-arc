@@ -1,3 +1,9 @@
+arc (5.21q-12) UNRELEASED; urgency=medium
+
+  * Switch to Standards-Version 4.6.2 (no changes needed).
+
+ -- Guillem Jover <guillem@debian.org>  Mon, 09 Jan 2023 23:31:38 +0100
+
 arc (5.21q-11) unstable; urgency=medium
 
   * Enable LFS build options.
