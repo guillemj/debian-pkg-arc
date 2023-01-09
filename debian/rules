@@ -7,3 +7,6 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all future=+lfs
 
 override_dh_auto_install:
 	dh_auto_install -- PREFIX=/usr
+
+override_dh_installchangelogs:
+	dh_installchangelogs --no-trim

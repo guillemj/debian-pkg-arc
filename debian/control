@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Guillem Jover <guillem@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
+ debhelper (>= 13.10),
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Homepage: https://github.com/ani6al/arc
