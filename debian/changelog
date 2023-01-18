@@ -1,4 +1,4 @@
-arc (5.21q-12) UNRELEASED; urgency=medium
+arc (5.21q-12) unstable; urgency=medium
 
   * Switch to Standards-Version 4.6.2 (no changes needed).
   * Update debian/patches metadata.
@@ -7,7 +7,7 @@ arc (5.21q-12) UNRELEASED; urgency=medium
   * Update copyright years.
   * Comment github URL from debian/watch.
 
- -- Guillem Jover <guillem@debian.org>  Mon, 09 Jan 2023 23:31:38 +0100
+ -- Guillem Jover <guillem@debian.org>  Wed, 18 Jan 2023 01:19:48 +0100
 
 arc (5.21q-11) unstable; urgency=medium
 
