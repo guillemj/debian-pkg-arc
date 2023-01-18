@@ -1,3 +1,5 @@
 version=4
 https://sf.net/arc/arc-(\d\S+)\.tar\.(?:bz2|gz|xz)
-https://github.com/ani6al/arc/releases .*/archive/(\d\S+)\.tar\.(?:bz2|gz|xz)
+
+# Release to fold the relicense changes:
+# https://github.com/ani6al/arc/releases .*/archive/(\d\S+)\.tar\.(?:bz2|gz|xz)
