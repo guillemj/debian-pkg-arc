@@ -1,3 +1,9 @@
+arc (5.21q-13) UNRELEASED; urgency=medium
+
+  * Wrap fields in debian/tests/control.
+
+ -- Guillem Jover <guillem@debian.org>  Wed, 17 Jan 2024 02:56:20 +0100
+
 arc (5.21q-12) unstable; urgency=medium
 
   * Switch to Standards-Version 4.6.2 (no changes needed).
