@@ -1,11 +1,11 @@
-arc (5.21q-13) UNRELEASED; urgency=medium
+arc (5.21q-13) unstable; urgency=medium
 
   * Wrap fields in debian/tests/control.
   * Switch from future=+lfs to abi=+lfs build flags feature, and Build-Depends
     on dpkg-dev >= 1.22.0.
   * Update copyright years.
 
- -- Guillem Jover <guillem@debian.org>  Wed, 17 Jan 2024 02:56:20 +0100
+ -- Guillem Jover <guillem@debian.org>  Tue, 16 Apr 2024 02:33:07 +0200
 
 arc (5.21q-12) unstable; urgency=medium
 
