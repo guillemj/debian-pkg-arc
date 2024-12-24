@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all abi=+lfs
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all abi=+lfs,+time64
 
 %:
 	dh $@

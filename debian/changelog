@@ -1,3 +1,9 @@
+arc (5.21q-14) UNRELEASED; urgency=medium
+
+  * Enable abi=+time64 everywhere.
+
+ -- Guillem Jover <guillem@debian.org>  Tue, 24 Dec 2024 20:26:38 +0100
+
 arc (5.21q-13) unstable; urgency=medium
 
   * Wrap fields in debian/tests/control.
