@@ -1,0 +1,71 @@
+Description: Fix FTBFS with time64
+ We need to use the correct types otherwise the build fails with mismatched
+ function signatures.
+Author: Guillem Jover <guillem@debian.org>
+Origin: vendor
+Forwarded: no
+Bug-Debian: https://bugs.debian.org/1091246
+Last-Update: 2024-12-24
+
+---
+ arcdos.c  |    2 +-
+ tmclock.c |   12 ++++++------
+ 2 files changed, 7 insertions(+), 7 deletions(-)
+
+--- a/arcdos.c
++++ b/arcdos.c
+@@ -173,7 +173,7 @@ setstamp(f, date, time)		/* set a file's
+ 	struct tm	tm;
+ 	struct timeval  tvp[2];
+ 	int	utimes();
+-	long	tmclock();
++	time_t	tmclock();
+ 	tm.tm_sec = (time & 31) * 2;
+ 	tm.tm_min = (time >> 5) & 63;
+ 	tm.tm_hour = (time >> 11);
+--- a/tmclock.c
++++ b/tmclock.c
+@@ -21,7 +21,7 @@ extern long	timezone;	/* should be in <t
+ 
+ long	tzone;
+ 
+-long
++time_t
+ tmjuliandate( tm )
+ struct tm *tm;
+     {
+@@ -48,16 +48,16 @@ struct tm *tm;
+     b += (long) ( (double) year * 365.25 );
+     b += (long) ( 30.6001 * ( (double) mon + 1.0 ) );
+     jd = mday + b + 1720994.5;
+-    return ( (long) jd );
++    return ( (time_t) jd );
+     }
+ 
+ 
+-long
++time_t
+ tmsubdayclock( tm )
+ struct tm *tm;
+     {
+     register int sec, min, hour;
+-    register long result;
++    register time_t result;
+ #if	BSD
+     {
+        struct timezone tzp;
+@@ -80,12 +80,12 @@ struct tm *tm;
+     }
+ 
+ 
+-long
++time_t
+ tmclock( tm )
+ struct tm *tm;
+     {
+     register long jd, sdc;
+-    long result;
++    time_t result;
+ 
+     if ( ( jd = tmjuliandate( tm ) ) == -1L )
+ 	return ( -1L );

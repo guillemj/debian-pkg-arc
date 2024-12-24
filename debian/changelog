@@ -1,6 +1,7 @@
 arc (5.21q-14) UNRELEASED; urgency=medium
 
   * Enable abi=+time64 everywhere.
+  * Fix FTBFS with time64 on 32-bit architectures. Closes: #1091246
 
  -- Guillem Jover <guillem@debian.org>  Tue, 24 Dec 2024 20:26:38 +0100
 
