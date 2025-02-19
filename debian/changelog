@@ -1,3 +1,10 @@
+arc (5.21q-15) UNRELEASED; urgency=medium
+
+  * Pass -std=gnu17 to CC, to fix build failures with gcc-15.
+    Closes: #1096324
+
+ -- Guillem Jover <guillem@debian.org>  Wed, 19 Feb 2025 04:05:18 +0100
+
 arc (5.21q-14) unstable; urgency=medium
 
   * Enable abi=+time64 everywhere.

@@ -1,0 +1,25 @@
+Description: Specify the expected C dialect explicitly
+ Starting with gcc-15, the compiler defaults to C23, which is way more strict
+ with function prototypes and pointer types. The code is not ready for that
+ yet, so specify the expected C dialect explicitly, by passing -std=gnu17.
+Author: Guillem Jover <guillem@debian.org>
+Origin: vendor
+Forwarded: no
+Bug-Debian: https://bugs.debian.org/1096324
+Last-Update: 2025-02-19
+
+---
+ Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/Makefile
++++ b/Makefile
+@@ -43,7 +43,7 @@ SYSTEM = -DSYSV=1
+ OPT = -O -Wall
+ # For MWC 3.0 on the Atari ST, use:
+ #CFLAGS = -VCOMPAC -VPEEP
+-CFLAGS += $(OPT) $(SYSTEM) $(CPPFLAGS)
++CFLAGS += $(OPT) $(SYSTEM) -std=gnu17 $(CPPFLAGS)
+ 
+ # GNU's gcc is very nice, if you've got it. Otherwise just cc.
+ #CC = cgcc -mshort -mbaserel
